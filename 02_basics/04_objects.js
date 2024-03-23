@@ -70,7 +70,7 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
 
-// JASON API FORMAT
+// JASON API FORMAT 
 
 // {
 //     "name": "ayush",
