@@ -1,4 +1,4 @@
-const coding = ["js", "ruby", "java", "python", "cpp"]
+// const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
 // const values = coding.forEach(  (item) => {
@@ -39,6 +39,12 @@ const books = [
         {title: 'Book Seven', genre: 'History', publish: 1987, edition: 2010},
         {title: 'Book Eight', genre: 'Non-Fiction', publish: 1986, edition: 1996},
         {title: 'Book Nine', genre: 'Science', publish: 2005, edition: 2020},
-        {title: 'Book Ten', genre: 'History', publish: 2001, edition: 2023}
+        {title: 'Book Ten', genre: 'Non-Fiction', publish: 2001, edition: 2023}
     
 ];
+
+let userBooks = books.filter(  (bk) => bk.genre === 'History'  )
+ userBooks = books.filter(  (bk) => {
+        return bk.publish >= 1995 && bk.genre === "History"
+})
+console.log(userBooks);
