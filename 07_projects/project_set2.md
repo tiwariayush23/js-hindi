@@ -1,3 +1,5 @@
+```javascript
+
 const form = document.querySelector('form');
 // this usecase will give empty value
 // const height =  parseInt(document.querySelector('#height').value)
@@ -17,3 +19,5 @@ form.addEventListener('submit', function (e) {
     results.innerHTML = `<span>${bmi}</span>`;
   }
 });
+
+```
